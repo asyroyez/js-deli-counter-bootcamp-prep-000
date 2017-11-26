@@ -1,5 +1,6 @@
 function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name)
+<<<<<<< HEAD
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
@@ -23,4 +24,7 @@ function currentLine(line) {
   }
 
   return `The line is currently: ${arr.join(`, `)}`
+=======
+  return katzDeliLine.length
+>>>>>>> 0f7cee33e7cfd155fc1c317e98ae8121189bdd64
 }
